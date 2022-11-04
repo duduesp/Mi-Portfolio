@@ -45,11 +45,9 @@ html{
     text-decoration: none;
 }
 .contenedor-header header nav ul li a:hover{
-    /* color: #009d71; */
     color: #009d71;
 }
 .nav-responsive{
-    /* background-color: #009d71; */
     background-color: #009d71;
     color:#fff;
     padding: 5px 10px;
@@ -62,7 +60,7 @@ html{
     background: linear-gradient(to top, rgba(30,35,38,.8), rgba(30,35,38,1)),
     url(img/agencia-codigo-programacion-tecnologia.jpg);
     background-size: cover;
-    height: 100vh;
+    height: 90vh;
     color: #fff;
     display: flex;
     align-items: center;
@@ -74,7 +72,6 @@ html{
     margin-bottom: 35px;
     margin-left: auto;
     margin-right: auto;
-    margin-top: auto;
     text-align: center;
     border-radius: 40px;
 
