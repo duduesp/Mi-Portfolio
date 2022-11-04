@@ -7,19 +7,20 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>Portfolio</title>
     <link rel="stylesheet" href="estilo.css">
+    <link rel="icon" type="image/jpg" href="./img/Clear Sans Bold.png"/>
 </head>
 <body>
     <!-- MENU ENCABEZADO -->
     <div class="contenedor-header">
         <header>
             <div class="logo">
-                <a href="#">Gustavo</a>
+                <a href="#">Gustavo Esperguín</a>
             </div>
             <nav id="nav">
                 <ul>
                     <li><a href="#inicio" onclick="seleccionar()">INICIO</a></li>
                     <li><a href="#sobremi" onclick="seleccionar()">SOBRE MI</a></li>
-                    <li><a href="#skills" onclick="seleccionar()">SKILLS</a></li>
+                    <li><a href="#skills" onclick="seleccionar()">TECNOLOGIAS</a></li>
                     <li><a href="#curriculum" onclick="seleccionar()">CURRICULUM</a></li>
                     <li><a href="#portfolio" onclick="seleccionar()">PORTFOLIO</a></li>
                 </ul>
@@ -50,14 +51,22 @@
         <div class="contenido-seccion">
             <h2>Sobre mí</h2>
             <!-- <p>Hola, soy Gustavo Esperguín. Tengo 26 años y soy Full Stack Developer. Siempre fuí un apasionado de la tecnología pero fue a los 22 años que elegí adentrarme en el mundo de la programación.  </p> -->
+            <div class="sobremi-texto-img">
+            <img src="./img/Gustavo Esperguín Full-Stack Developer (1).jpg">
             <p>¡Hola! Soy Gustavo, Desarrollador Web Full Stack 💻, apasionado por la tecnología y en continua formación 🚀
                 Soy una persona proactiva, dedicada y muy estructurada. Me apasiona el liderazgo y el trabajo en equipo, afrontar nuevos desafíos y adaptarme a nuevos entornos de trabajo. Me enfoco en la planificación y organización de proyectos, en la toma de decisiones, en la resolución de problemas, el logro de objetivos y la satisfacción del cliente 🤝</p>
-
-       
-            <button>
+            
+            </div>
+            <div class="contenido-seccion-btn">
+            <a href="./img/Gustavo Esperguin CV.pdf" target="_blank" >
+                Ver CV <i class="fa-regular fa-eye"></i>
+                <span class="overlay"></span>
+            </a>
+            <a href="./img/Gustavo Esperguin CV.pdf" download="GustavoEsperguinCV">
                 Descargar CV <i class="fa-solid fa-download"></i>
                 <span class="overlay"></span>
-            </button>
+            </a>
+            </div>
         </div>
     </section>
 
@@ -65,40 +74,40 @@
     <section class="skills" id="skills">
         <div class="contenido-seccion">
             <h2>Tecnologías</h2>
-            <div class="fila">
+            <div class="filaDos">
                 <div class="tecnologias">
                     <img src="img/JS.png">
-                    <span>JavaScript</span> 
+                    <span class="textTecnologias">JavaScript</span> 
                 </div>
                 <div class="tecnologias">
                     <img src="img/NODE.png">
-                    <span>NodeJS</span> 
+                    <span class="textTecnologias">NodeJS</span> 
                 </div>
                 <div class="tecnologias">
                     <img src="img/HTML.png">
-                    <span>HTML</span> 
+                    <span class="textTecnologias">HTML</span> 
                 </div>
                 <div class="tecnologias">
                     <img src="img/CSS3.png">
-                    <span>CSS</span> 
+                    <span class="textTecnologias">CSS</span> 
                 </div>
             </div>
             <div class="filaDos">
                 <div class="tecnologias">
                     <img src="img/react.png">
-                    <span>ReactJS</span> 
+                    <span class="textTecnologias">ReactJS</span> 
                 </div>
                 <div class="tecnologias">
                     <img src="img/redux.png">
-                    <span>   Redux</span> 
+                    <span class="textTecnologias">Redux</span> 
                 </div>
                 <div class="tecnologias">
                     <img src="img/sequelize.png">
-                    <span>Sequelize</span> 
+                    <span class="textTecnologias">Sequelize</span> 
                 </div>
                 <div class="tecnologias">
                     <img src="img/postgres.png">
-                    <span>PostgreSQL</span> 
+                    <span class="textTecnologias">PostgreSQL</span> 
                 </div>
             </div>
         </div>
@@ -177,21 +186,33 @@
                     <img src="img/madeira.png" alt="">
                     <div class="overlay">
                         <h3>Madeira</h3>
-                        <p>Desarrollo Full Stack</p>
+                        <p>Aplicación de un juego de cartas ficticio.</p>
                     </div>
+                    <div class="descripcionProyect">
+                    <a href="https://github.com/orgs/Atlantic-Dev/repositories" class="portfoliolinks"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://madeiraproject.vercel.app/" class="portfoliolinks"><i class="fa-solid fa-link"></i></a>
+                </div>
                 </div>
                 <div class="proyecto">
                     <img src="img/programax.png" alt="">
                     <div class="overlay">
                         <h3>Programax</h3>
-                        <p>Desarrollo Full Stack</p>
+                        <p>Plataforma de trabajo freelance.</p>
+                    </div>
+                    <div class="descripcionProyect">
+                        <a href="https://github.com/FranNavarro27F/Proyecto_Final" class="portfoliolinks"><i class="fa-brands fa-github"></i></a>
+                        <a href="https://programax.vercel.app/" class="portfoliolinks"><i class="fa-solid fa-link"></i></a>
                     </div>
                 </div>
                 <div class="proyecto">
                     <img src="img/FoodAPP.jpg" alt="">
                     <div class="overlay">
                         <h3>FoodAPP</h3>
-                        <p>Desarrollo Full Stack</p>
+                        <p>Página web sobre recetas.</p>
+                    </div>
+                    <div class="descripcionProyect">
+                        <a href="https://github.com/duduesp/FoodAPP" class="portfoliolinks"><i class="fa-brands fa-github"></i></a>
+                        <!-- <a href="https://madeiraproject.vercel.app/" class="portfoliolinks"><i class="fa-solid fa-link"></i></a> -->
                     </div>
                 </div>
             </div>
@@ -204,8 +225,10 @@
             <i class="fa-solid fa-angles-up"></i>
         </a>
         <div class="redes">
+            <h1>Contacto</h1>
             <a href="https://www.linkedin.com/in/gustavoespergu%C3%ADn/"><i class="fa-brands fa-linkedin-in"></i></a>
             <a href="https://github.com/duduesp"><i class="fa-brands fa-github"></i></a>
+            <a onclick="copyLink()"><i class="fa-regular fa-envelope"></i></a>
         </div>
     </footer>
 
