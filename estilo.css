@@ -269,6 +269,7 @@ html{
 }
 .textTecnologias {
     text-align: center;
+    margin-top: 10px;
 }
 
 .skills{
@@ -668,6 +669,8 @@ footer .arriba{
     line-height: 50px;
     font-size: 18px;
 }
+
+
 /* SECCION RESPONSIVE */
 @media screen and (max-width:980px){
     nav{
