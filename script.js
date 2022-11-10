@@ -16,11 +16,6 @@ function seleccionar(){
     menuVisible = false;
 }
 
-
-//detecto el scrolling para aplicar la animacion de la barra de habilidades
-window.onscroll = function(){
-    efectoHabilidades();
-} 
 // función para copiar el mail al portapapele
 function copyLink(){
     navigator.clipboard.writeText("dudu.es@hotmail.com.ar")
